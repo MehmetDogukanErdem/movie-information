@@ -6,7 +6,7 @@ $(document).ready(() => {
   });
 });
 
-const apiKey = 'f65de4aef050bd9291f4b0632e996b4d';
+const apiKey = 'API_KEY_HERE';
 
 function getMovies(searchText){
   axios.get(`https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${encodeURIComponent(searchText)}`)
